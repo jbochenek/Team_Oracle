@@ -111,8 +111,14 @@ The biggest challenge was in cleaning the text data and creating additional vari
 
 ---
 
-# DATA ANALYSIS & VISUALIZATION
-## MAIN DATASETS
+# DATA VISUALIZATION
+![Tweet Histograms](images/histogramstext.png?raw=true "Tweet Histograms")
+
+![Keywords Histograms](images/histogramskeyword.png?raw=true "Keywords Histograms")
+
+![Pair Plot by Target](images/pairplotcountstarget.png?raw=true "Pair Plot of Count Variables by Target")
+
+![Correlations](images/correlation.png?raw=true "Correlation Matrix")
 
 ---
 
