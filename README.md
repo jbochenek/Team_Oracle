@@ -75,18 +75,19 @@ For our team we have split out the research areas/topics and each team member is
 ---
 
 # EXPLANATION OF DATASETS
-## MAIN DATASET
-
+The data for this project comes from Kaggle. It is part of their ongoing process to provide a dataset for use in NLP analysis. The data is part of a posted competition called “Natural Language Processing with Disaster Tweets”, with the stated purpose to “predict which Tweets are about real disasters and which ones are not”. We chose this dataset because the topic was of interest and the data was not pre-cleaned, so this would make it a challenge. The data from Kaggle is a selection of tweets from Twitter that were then tagged by humans for if they were about real tweets or not. Additionally, humans tagged keywords concerning what disaster type the tweet could be concerning. These keywords were present regardless of real vs not disaster status. The interesting part is that neither the keyword nor the tweet have been preprocessed nor cleaned, which makes it perfect for our purposes. 
 
 ---
 
 # DATA ACQUISITION
-## MAIN DATASETS
+The dataset was downloaded directly from Kaggle. In order to do so, we made a team on Kaggle and joined the competition. There are two files, a training dataset, and a test dataset. Both were downloaded as a CSV and transferred to the group’s google documents folder.
 
 ---
 
 # DATA PRE-PROCESSING
-## MAIN DATASETS
+As stated previously, there is extensive data pre-processing that has to be done. There are 5 columns in the original dataset: ID, Location, Keyword, Text, and Target. Location and Keyword both had missing data (Location: 2533 in training, 1105 in test, Keyword: 61 null in training, 26 null in test), but text and target were never null.  There are 7,613 tweets in the training set and 3,263 in the test set. Location is the location of the tweeter’s account that is set in their settings, some of them are non-locations. We decided to not use the location data as a result. 
+
+The biggest challenge was in cleaning the text data and creating additional variables to use in the machine learning algorithms. In order to do so in an organized manner, we created a data flow table that describes the order that the steps should be done in and how they concern the variables that are being altered. Table 1 below shows that process, with the description of the step, what variable is being used, what variable is being created, alongside which members of the team were responsible for each step. Many of the same steps were also used on the keyword variable, as sensible. The final resultant dataset contained 91 variables.
 
 |     | Description                                                                                                                                                      | In Variable                                      | Out Variable                                                                                                                                                                                                     | Responsibility | Notes/Progress                                 |
 |-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------------------------------------------|
