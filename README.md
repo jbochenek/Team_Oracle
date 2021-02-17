@@ -16,8 +16,8 @@ Drexel Winter 2021 DSCI 592 Team Oracle
 1. [Datasets](#EXPLANATION-OF-DATASETS)
 1. [Acquisition](#DATA-ACQUISITION)
 1. [Pre-Processing](#DATA-PRE-PROCESSING)
-1. [Analysis](#DATA-ANALYSIS)
 1. [Vizualization](#DATA-VISUALIZATION)
+1. [Analysis](#DATA-ANALYSIS)
 1. [Final Report](#FINAL-REPORT)
 1. [Responsibilities](#RESPONSIBILITY-SUMMARY)
 
@@ -112,13 +112,29 @@ The biggest challenge was in cleaning the text data and creating additional vari
 ---
 
 # DATA VISUALIZATION
+### Tweet Histograms
 ![Tweet Histograms](images/histogramstext.png?raw=true "Tweet Histograms")
 
+### Keyword Histograms
 ![Keywords Histograms](images/histogramskeyword.png?raw=true "Keywords Histograms")
 
+### Pair Plot by Target
 ![Pair Plot by Target](images/pairplotcountstarget.png?raw=true "Pair Plot of Count Variables by Target")
 
+### Correlation Matrix
 ![Correlations](images/correlation.png?raw=true "Correlation Matrix")
+
+### Wordcloud for Tweets
+![Tweet Wordcloud](images/text.png?raw=true "Tweet Wordcloud")
+
+### Wordcloud for Tweets with non-real Disasters
+![Non-Real Disaster Tweets](images/target0.png?raw=true "Non-Real Disaster Tweets")
+
+### Wordcloud for Tweets with real Disasters
+![Real Disaster Tweets](images/target1.png?raw=true "Real Disaster Tweets")
+
+### Wordcloud for Keywords
+![Keyword Wordcloud](images/keyword.png?raw=true "Keyword Wordcloud")
 
 ---
 
