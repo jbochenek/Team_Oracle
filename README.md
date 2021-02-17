@@ -18,7 +18,7 @@ Drexel Winter 2021 DSCI 592 Team Oracle
 1. [Pre-Processing](#DATA-PRE-PROCESSING)
 1. [Vizualization](#DATA-VISUALIZATION)
 1. [Analysis](#DATA-ANALYSIS)
-1. [Final Report](#FINAL-REPORT)
+1. [Final Reports](#FINAL-REPORTS)
 1. [Responsibilities](#RESPONSIBILITY-SUMMARY)
 
 ---
