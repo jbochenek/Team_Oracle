@@ -138,13 +138,88 @@ The biggest challenge was in cleaning the text data and creating additional vari
 
 ---
 
+# DATA ANALYSIS
+
+### Feature Importance
+
+### Naive Bayes
+- Accuracy:
+- Recall:
+- F1:
+- Pecision:
+
+- Accuracy:
+- Recall:
+- F1:
+- Pecision:
+
+
+### Support Vector Machines
+Before Optimization
+SVC(random_state = 23)
+- Accuracy: 0.629
+- Recall: 0.397
+- F1: 0.479
+- Pecision: 0.604
+
+
+After Optimization
+SVC(C=0.5, class_weight = None, gamma = 0.001, kernel='linear', random_state = 23)
+- Accuracy: 0.804
+- Recall: 0.668
+- F1: 0.746
+- Pecision: 0.845
+
+### BERT
+- Accuracy: 0.831
+- Recall: 0.766
+- F1: 0.796
+- Pecision: 0.827
+
+### K-Nearest Neighbor
+Before Optimization
+- Accuracy: 0.718
+- Recall: 0.718
+- F1: 0.717
+- Pecision: 0.716
+
+After Optimization
+- Accuracy: 0.727
+- Recall: 0.727
+- F1: 0.727
+- Pecision: 0.728
+
+### Gradient Boosting
+Before Optimization
+- Accuracy: 0.691
+- Recall: 0.691
+- F1: 0.692
+- Pecision: 0.694
+
+After Optimization
+- Accuracy: 0.718
+- Recall: 0.718
+- F1: 0.717
+- Pecision: 0.717
+
+
+### Model Comparison
+
+|           | Naive Bayes | SVC   | BERT  | KNN   | Gradient Boosting |
+|-----------|-------------|-------|-------|-------|-------------------|
+| Accuracy  |             | 0.804 | 0.831 | 0.727 | 0.718             |
+| Recall    |             | 0.668 | 0.766 | 0.727 | 0.718             |
+| F1        |             | 0.746 | 0.796 | 0.727 | 0.717             |
+| Precision |             | 0.845 | 0.827 | 0.728 | 0.717             |
+
+---
 
 # FINAL REPORTS
 - [Launch Report](https://drive.google.com/file/d/15KfQaU8OuMD9S-bvT8gHdp_dhFoZs9ZB/view?usp=sharing)
 - [Pitch Presentation](https://docs.google.com/presentation/d/1YLyuNzaK5g3q05XDbT2ZW4Gx-scvFxnpfSup-AL45Us/edit?usp=sharing)
 - [Data Acquisition, Pre-Processing, & Exporatory Data Analysis Report](https://drive.google.com/file/d/16kYkAiHrbIjpaxFCZT3rHyijl3tWc5kv/view?usp=sharing)
 - [Predictive Modeling Report](https://drive.google.com/file/d/1Inl7djEvG7uKzIGU2E6CleqAmWnowzpZ/view?usp=sharing)
-- [Final Presentation]()
+- [Final Presentation](https://docs.google.com/presentation/d/1QJsjxDM95MamnSZxHz2pd1UeU-9BH0K3FH1eWrgYLLs/edit?usp=sharing)
 
 ---
 
