@@ -143,16 +143,10 @@ The biggest challenge was in cleaning the text data and creating additional vari
 ### Feature Importance
 
 ### Naive Bayes
-- Accuracy:
-- Recall:
-- F1:
-- Pecision:
-
-- Accuracy:
-- Recall:
-- F1:
-- Pecision:
-
+- Accuracy: 0.803
+- Recall: 0.69
+- F1: 0.75
+- Pecision: 0.82
 
 ### Support Vector Machines
 Before Optimization
@@ -207,10 +201,10 @@ After Optimization
 
 |           | Naive Bayes | SVC   | BERT  | KNN   | Gradient Boosting |
 |-----------|-------------|-------|-------|-------|-------------------|
-| Accuracy  |             | 0.804 | 0.831 | 0.727 | 0.718             |
-| Recall    |             | 0.668 | 0.766 | 0.727 | 0.718             |
-| F1        |             | 0.746 | 0.796 | 0.727 | 0.717             |
-| Precision |             | 0.845 | 0.827 | 0.728 | 0.717             |
+| Accuracy  | 0.802       | 0.804 | 0.831 | 0.727 | 0.718             |
+| Recall    | 0.691       | 0.668 | 0.766 | 0.727 | 0.718             |
+| F1        | 0.754       | 0.746 | 0.796 | 0.727 | 0.717             |
+| Precision | 0.823       | 0.845 | 0.827 | 0.728 | 0.717             |
 
 ---
 
